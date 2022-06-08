@@ -11,19 +11,18 @@
 
 // if (num_1 > num_2){
 //     Console.Write("Большее число: ");
-//     Console.WriteLine( num_1);
+//     Console.WriteLine(num_1);
 //     Console.Write("Меньшее число: ");
-//     Console.WriteLine( num_2);
+//     Console.WriteLine(num_2);
 // }
 //     else if(num_1 < num_2){
 //         Console.Write("Большее число: ");
-//         Console.WriteLine( num_2);
+//         Console.WriteLine(num_2);
 //         Console.Write("Меньшее число: ");
-//         Console.WriteLine( num_1);
+//         Console.WriteLine(num_1);
 //     }
 //         else
 //         Console.WriteLine("Числа равны");
-
 
 //============================================================================================
         
@@ -45,6 +44,8 @@
 // Console.Write("Большее число: ");
 // Console.Write(max);
 
+//============================================================================================
+
 // THIRD TASK "Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка)."
 
 // Console.Write("Введите число: ");
@@ -54,3 +55,15 @@
 //     Console.Write("Число четное!");
 //     else
 //     Console.Write("Число не четное!");
+
+//============================================================================================
+
+// FOURTH TASK "Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N."
+
+// Console.Write("Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+//     for ( int i = 1; i <= num; i++){
+//         if(i % 2 == 0)
+//             Console.WriteLine(i); 
+//     }
